@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Фішки та Секрети | CYBER VECTOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrap">
+            <a href="index.html" class="logo">CYBER<span>VECTOR</span></a>
+            <nav class="menu">
+                <a href="index.html">Головна</a>
+                <a href="software.html">Додатки</a>
+                <a href="tutorials.html">Уроки</a>
+                <a href="tips.html" class="active">Фішки</a>
+                <a href="portfolio.html">Роботи</a>
+                <a href="contact.html">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="section fade-in">
+        <div class="container">
+            <h1 style="text-align: center;">СЕКРЕТНІ <br><span>ТЕХНІКИ</span></h1>
+            <p style="text-align: center; margin-bottom: 60px;">
+                Професійні поради для ідеального вектора.
+            </p>
+
+            <div class="grid-3">
+
+                <div class="tip-card">
+                    <img src="image3/1.avif" class="tip-img" alt="Hotkeys">
+                    <h3>ПРАВИЛО КРИВИХ</h3>
+                    <p>Секрет ідеальної лінії — мінімум точок. Ставте точки тільки на піках вигину, а не посередині. Чим менше точок, тим рівніша лінія.</p>
+                </div>
+
+                <div class="tip-card">
+                    <img src="image3/2.jpg" class="tip-img" alt="Hotkeys">
+                    <h3>SVG МАГІЯ</h3>
+                    <p>SVG — це код. Ви можете змінювати колір іконок на сайті прямо через CSS, не перезберігаючи картинку. Це економить години роботи.</p>
+                </div>
+
+                <div class="tip-card">
+                    <img src="image3/3.jfif" class="tip-img" alt="Hotkeys">
+                    <h3>PATHFINDER</h3>
+                    <p>Не малюйте складні форми вручну. Беріть прості фігури (кола, квадрати) і "зливайте" їх або вирізайте одну з одної.</p>
+                </div>
+
+                <div class="tip-card">
+                    <img src="image3/4.jpg" class="tip-img" alt="Hotkeys">
+                    <h3>ТІНІ БЕЗ ЧОРНОГО</h3>
+                    <p>Ніколи не робіть тінь чорним кольором. Використовуйте темний відтінок основного кольору об'єкта в режимі "Multiply".</p>
+                </div>
+
+                <div class="tip-card">
+                    <img src="image3/5.jpg" class="tip-img" alt="Hotkeys">
+                    <h3>ПРИВ'ЯЗКА ДО СІТКИ</h3>
+                    <p>Малюєте іконки? Завжди вмикайте "Snap to Grid". Якщо лінія потрапить між пікселями, іконка буде "мильною" та нечіткою.</p>
+                </div>
+
+                <div class="tip-card">
+                    <img src="image3/6.jpg" class="tip-img" alt="Hotkeys">
+                    <h3>ГАРЯЧІ КЛАВІШІ</h3>
+                    <p>Не клікайте мишкою по інструментах. Вивчіть: P (перо), V (виділення), A (пряме виділення). Це прискорює роботу вдвічі.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-cyber">
+        <div class="container nav-wrap">
+            <div class="student-info">
+                <h4>ПІДГОТУВАВ <span>ЗУБАРЕЦЬ РОМАН</span></h4>
+            </div>
+            <div class="socials">
+               <a href="https://t.me/Winaline2" target="blank" title="Мій Telegram">
+        <i class="fab fa-telegram-plane"></i></a>
+                <a href="https://instagram.com/romazubarets555" target="_blank" title="Мій Instagram">
+        <i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(() => {
+                document.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
+            }, 100);
+        });
+    </script>
+
+</body>
+<div class="cursor-glow"></div>
+<script>
+    const glow = document.querySelector('.cursor-glow');
+    
+    document.addEventListener('mousemove', (e) => {
+        glow.style.left = e.clientX + 'px';
+        glow.style.top = e.clientY + 'px';
+    });
+</script>
+</html>
