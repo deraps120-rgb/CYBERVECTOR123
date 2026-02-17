@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>CYBER VECTOR | Головна</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Стилі спеціально для FAQ на головній */
+        details {
+            background: #111;
+            margin-bottom: 15px;
+            border: 1px solid #222;
+            padding: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        details:hover {
+            border-color: var(--neon-green);
+        }
+        summary {
+            font-weight: bold;
+            color: white;
+            list-style: none; /* Прибирає трикутник */
+            position: relative;
+            padding-right: 30px;
+            text-transform: uppercase;
+        }
+        summary::after {
+            content: '+';
+            position: absolute;
+            right: 0;
+            color: var(--neon-green);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        details[open] summary::after {
+            content: '-';
+        }
+        details p {
+            margin-top: 15px;
+            margin-bottom: 0;
+            color: #aaa;
+            font-size: 0.95rem;
+            border-top: 1px solid #333;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="cursor-glow"></div>
+    <header>
+        <div class="container nav-wrap">
+            <a href="index.html" class="logo">CYBER<span>VECTOR</span></a>
+            <nav class="menu">
+                <a href="index.html" class="active">Головна</a>
+                <a href="software.html">Додатки</a>
+                <a href="tutorials.html">Уроки</a>
+                <a href="tips.html">Фішки</a>
+                <a href="portfolio.html">Роботи</a>
+                <a href="contact.html">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="section" style="padding: 120px 0;">
+        <div class="container grid-2 fade-in">
+            <div>
+                <p style="color: var(--neon-green); font-weight: bold; letter-spacing: 2px;">ДИПЛОМНА РОБОТА 2026</p>
+                <h1>ДОДАТКИ ДЛЯ РОБОТИ З<br><span>ВЕКТОРНОЮ ГРАФІКОЮ</span></h1>
+                <p>
+                    Векторна графіка — це мова сучасного дизайну. Створюйте логотипи, інтерфейси та арти з математичною точністю на iPad та планшетах.
+                    Забудьте про пікселі. Майбутнє за кривими.
+                </p>
+                <div style="margin-top: 40px;">
+                    <a href="software.html" class="btn">ВІДКРИТИ ДОДАТКИ</a>
+                </div>
+            </div>
+            <div class="img-box" style="border: 2px solid var(--neon-green); box-shadow: 0 0 50px rgba(113, 124, 119, 0.2); height: 400px;">
+                <img src="image/2.jpg" alt="Hero Image">
+            </div>
+        </div>
+    </div>
+
+    <div style="background: #2b2a2a; padding: 50px 0; border-top: 1px solid #222; border-bottom: 1px solid #222;">
+        <div class="container grid-3 fade-in delay-1" style="text-align: center;">
+            <div>
+                <h2 style="border: none; margin: 0; font-size: 3rem; color: var(--neon-green); background: none;">4</h2>
+                <p style="margin: 0; font-size: 0.9rem;">ТОП ДОДАТКИ</p>
+            </div>
+            <div>
+                <h2 style="border: none; margin: 0; font-size: 3rem; color: var(--neon-green); background: none;">∞</h2>
+                <p style="margin: 0; font-size: 0.9rem;">МАСШТАБУВАННЯ</p>
+            </div>
+            <div>
+                <h2 style="border: none; margin: 0; font-size: 3rem; color: var(--neon-green); background: none;">SVG</h2>
+                <p style="margin: 0; font-size: 0.9rem;">WEB СТАНДАРТ</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container grid-2 fade-in">
+            <div class="img-box" style="border: 2px solid var(--neon-green); box-shadow: 0 0 50px rgba(113, 124, 119, 0.2); height: 400px;">
+                <img src="image/1.jpg" alt="Grid">
+            </div>
+            <div>
+                <h2>ВЕКТОР vs РАСТР</h2>
+                <p>
+                    Растрова графіка (JPG, PNG) складається з кольорових крапок — пікселів. Якщо її збільшити, вона стає розмитою.
+                </p>
+                <p>
+                    <strong style="color: white;">Векторна графіка (SVG, AI)</strong> — це математичні формули. Лінії, криві та точки. 
+                    Ви можете розтягнути логотип розміром з поштову марку на цілий хмарочос — і він залишиться ідеально чітким.
+                </p>
+                <ul style="color: #aaa; list-style: none; padding: 0; margin-top: 20px;">
+                    <li style="margin-bottom: 10px;">Ідеальна чіткість</li>
+                    <li style="margin-bottom: 10px;">Мала вага файлу</li>
+                    <li style="margin-bottom: 10px;">Легке редагування кольорів</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container fade-in">
+            <h2 style="text-align: center; border: none; background: none;">ЧОМУ САМЕ ВЕКТОР?</h2>
+            <div class="grid-3" style="margin-top: 50px;">
+                <div class="card">
+                    <h3 style="color: var(--neon-green);">01. МАСШТАБ</h3>
+                    <p>Якість зображення залишається ідеальною при будь-якому збільшенні. Ніяких "квадратиків".</p>
+                </div>
+                <div class="card">
+                    <h3 style="color: var(--neon-green);">02. ШВИДКІСТЬ</h3>
+                    <p>Векторні файли важать кілобайти, що дозволяє сайтам та додаткам завантажуватися миттєво.</p>
+                </div>
+                <div class="card">
+                    <h3 style="color: var(--neon-green);">03. СВОБОДА</h3>
+                    <p>Сучасні планшети (iPad) дозволяють малювати професійну графіку в кафе, парку чи метро.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container fade-in">
+            <h2 style="text-align: center; color: var(--neon-green); font-weight: bold; letter-spacing: 2px; none; margin-bottom: 40px;">ЧАСТІ ПИТАННЯ</h2>
+            
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <details>
+                    <summary>ЩО КРАЩЕ: IPAD ЧИ ГРАФІЧНИЙ ПЛАНШЕТ?</summary>
+                    <p>iPad — це автономний пристрій, ви малюєте прямо на екрані де завгодно. Графічний планшет потребує підключення до комп'ютера. Для мобільності iPad кращий.</p>
+                </details>
+                
+                <details>
+                    <summary>ЧИ МОЖНА ЗАРОБЛЯТИ НА ВЕКТОРІ?</summary>
+                    <p>Так! Ви можете створювати логотипи на замовлення, малювати іконки для стоків (Shutterstock, Freepik) або робити ілюстрації для сайтів.</p>
+                </details>
+
+                <details>
+                    <summary>ЯКИЙ ДОДАТОК ОБРАТИ НОВАЧКУ?</summary>
+                    <p>Ми рекомендуємо почати з <strong>Vectornator</strong> (він безкоштовний) або <strong>Amadine</strong> (дуже простий). Illustrator має більше функцій, але він складніший.</p>
+                </details>
+                
+                <details>
+                    <summary>ЩО ТАКЕ SVG?</summary>
+                    <p>Scalable Vector Graphics. Це формат файлу, який розуміють усі браузери. Це код, який малює картинку.</p>
+                </details>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section" style="text-align: center; border-bottom: none;">
+        <div class="container fade-in">
+            <h2 style="border: none; background: none;">ГОТОВІ ПОЧАТИ?</h2>
+            <p style="margin: 0 auto 30px auto;">Переходьте до огляду програм та обирайте свій інструмент.</p>
+            <a href="software.html" class="btn">ПЕРЕЙТИ ДО Додатків</a>
+        </div>
+    </div>
+
+    <footer class="footer-cyber">
+        <div class="container nav-wrap">
+            <div class="student-info"><h4>ПІДГОТУВАВ <span>ЗУБАРЕЦЬ РОМАН</span></h4></div>
+            <div class="socials">
+                <a href="https://t.me/Winaline2" target="blank" title="Мій Telegram">
+        <i class="fab fa-telegram-plane"></i></a>
+                <a href="https://instagram.com/romazubarets555" target="_blank" title="Мій Instagram">
+        <i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>document.addEventListener("DOMContentLoaded",function(){setTimeout(()=>{document.querySelectorAll('.fade-in').forEach(el=>el.classList.add('visible'))},100)});</script>
+</body>
+<script>
+    const glow = document.querySelector('.cursor-glow');
+    
+    document.addEventListener('mousemove', (e) => {
+        // Рухаємо пляму за курсором
+        glow.style.left = e.clientX + 'px';
+        glow.style.top = e.clientY + 'px';
+    });
+</script>
+</html>
